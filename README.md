@@ -58,7 +58,10 @@ These are:
 
 - `spdx-only-fsf` - a list created in accordance to the [SPDX licence list](https://spdx.org/licenses/). Includes only licences marked as "FSF free/libre".
 
-- `spdx-only-osi` - a list created in accordance to the [SPDX licence list](https://spdx.org/licenses/). Includes only licences marked as "OSI approved".
+At this point, you should've already decided where do you want to install
+the program. As stated before, some paths are set in the code during the build,
+so if these don't match during the build and install, the whole thing will
+probably fail spectacularly in runtime.
 
 - `suse` - a list created in accordance to [openSUSE packaging guidelines](https://en.opensuse.org/openSUSE:Packaging_guidelines#Licensing).
 
@@ -119,4 +122,4 @@ see `IMAGE-CREDITS.txt` for details.
  3. Use British spelling, when appropriate.
  
  4. By contributing, you agree for your work to be included under
-    the terms of the program licence.
+    the terms of the program license.
